@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# build output
+.next/
+dist/
+build/
+
+# environment variables
+.env
+.env.local
+
+# uploads
+uploads/
+
+# logs
+npm-debug.log
+yarn-error.log

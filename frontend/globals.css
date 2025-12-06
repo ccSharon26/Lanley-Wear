@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #14b8a6;
+  --secondary: #0ea5e9;
+  --dark: #0f172a;
+  --light: #ffffff;
+  --gray: #94a3b8;
+  --accent: #fb923c;
+}
+
+html,body,#root { height: 100%; }
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--light);
+  color: var(--dark);
+}
+
+.container { max-width: 1100px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
